@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blind Spot - Fake News Detector</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="Gemini_Generated_Image_92q9u092q9u092q9.png" alt="Blind Spot Logo" />
+      <h1>Blind Spot</h1>
+      <p>Your AI-powered Fake News Checker</p>
+    </header>
+
+    <div class="container">
+      <div class="input-section">
+        <textarea
+          id="newsInput"
+          placeholder="Paste your news article or headline here..."
+          rows="5"
+        ></textarea>
+        <button id="checkBtn">Check Fake News</button>
+      </div>
+
+      <div class="result-section" id="resultSection">
+        <div class="result-card">
+          <h3>Verdict:</h3>
+          <p id="verdictText">
+            <strong>Unverified</strong> — This article shows mixed signals. Please review the sources below.
+          </p>
+        </div>
+
+        <div class="analyzing" id="analyzingText">Analyzing...</div>
+
+        <div class="evidence" id="evidenceList">
+          <h4>Evidence:</h4>
+          <ul>
+            <li><a href="#" target="_blank">Wikipedia - Related Topic</a></li>
+            <li><a href="#" target="_blank">PolitiFact - Claim Review</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made by <span>Sajal Seth, Saatvik Tewari, Ayush Dev</span> 💻</p>
+      <p>Verify before you share — stop the spread of fake news.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
